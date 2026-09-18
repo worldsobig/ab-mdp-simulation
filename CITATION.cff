@@ -11,13 +11,15 @@ type: software
 authors:
   - family-names: Li
     given-names: Wentao
+    orcid: "https://orcid.org/0009-0009-3187-5102"
     affiliation: "World So Big Technology (Shenzhen) Co., Ltd."
 contact:
   - family-names: Li
     given-names: Wentao
+    orcid: "https://orcid.org/0009-0009-3187-5102"
     email: contact@worldsobig.com
 license: MIT
-version: "1.0.0"
+version: "1.0-submission"
 date-released: "2026-09-18"
 keywords:
   - safe reinforcement learning
@@ -33,5 +35,6 @@ preferred-citation:
   authors:
     - family-names: Li
       given-names: Wentao
+      orcid: "https://orcid.org/0009-0009-3187-5102"
       affiliation: "World So Big Technology (Shenzhen) Co., Ltd."
   year: 2026
