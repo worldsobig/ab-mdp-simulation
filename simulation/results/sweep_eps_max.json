@@ -1,0 +1,402 @@
+[
+  {
+    "parameter": "eps_max",
+    "value": 0.02,
+    "fixed_lambda": 10.0,
+    "fixed_reward_scale": 2.0,
+    "fixed_eps_max": 0.05,
+    "sweep_runs": 800,
+    "train_seeds": 8,
+    "penalty_breach_rate": 1.0,
+    "penalty_breach_rate_std": 0.0,
+    "penalty_breach_rate_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "penalty_leaky_runs": 8,
+    "penalty_leaky_runs_frac": 1.0,
+    "penalty_leaky_runs_frac_ci95_exact": [
+      0.6305833524471807,
+      1.0
+    ],
+    "abmdp_breach_rate": 0.0,
+    "abmdp_breach_rate_per_seed": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "abmdp_breach_steps_total": 0,
+    "abmdp_evaluated_steps": 640000,
+    "abmdp_breach_rate_pooled_ci95_exact": [
+      0.0,
+      5.763857535393009e-06
+    ],
+    "abmdp_mean_proj_active_frac": 0.9394984375000055,
+    "abmdp_vacuous_steps_total": 0,
+    "abmdp_vacuous_step_frac": 0.0,
+    "abmdp_vacuous_breach_steps": 0,
+    "abmdp_breach_steps_on_nonvacuous": 0,
+    "predicted_vacuous": false
+  },
+  {
+    "parameter": "eps_max",
+    "value": 0.05,
+    "fixed_lambda": 10.0,
+    "fixed_reward_scale": 2.0,
+    "fixed_eps_max": 0.05,
+    "sweep_runs": 800,
+    "train_seeds": 8,
+    "penalty_breach_rate": 1.0,
+    "penalty_breach_rate_std": 0.0,
+    "penalty_breach_rate_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "penalty_leaky_runs": 8,
+    "penalty_leaky_runs_frac": 1.0,
+    "penalty_leaky_runs_frac_ci95_exact": [
+      0.6305833524471807,
+      1.0
+    ],
+    "abmdp_breach_rate": 0.0,
+    "abmdp_breach_rate_per_seed": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "abmdp_breach_steps_total": 0,
+    "abmdp_evaluated_steps": 640000,
+    "abmdp_breach_rate_pooled_ci95_exact": [
+      0.0,
+      5.763857535393009e-06
+    ],
+    "abmdp_mean_proj_active_frac": 0.9240812500000017,
+    "abmdp_vacuous_steps_total": 0,
+    "abmdp_vacuous_step_frac": 0.0,
+    "abmdp_vacuous_breach_steps": 0,
+    "abmdp_breach_steps_on_nonvacuous": 0,
+    "predicted_vacuous": false
+  },
+  {
+    "parameter": "eps_max",
+    "value": 0.08,
+    "fixed_lambda": 10.0,
+    "fixed_reward_scale": 2.0,
+    "fixed_eps_max": 0.05,
+    "sweep_runs": 800,
+    "train_seeds": 8,
+    "penalty_breach_rate": 0.8825000000000001,
+    "penalty_breach_rate_std": 0.3108757790500894,
+    "penalty_breach_rate_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.06
+    ],
+    "penalty_leaky_runs": 7,
+    "penalty_leaky_runs_frac": 0.875,
+    "penalty_leaky_runs_frac_ci95_exact": [
+      0.4734903291247935,
+      0.9968402764687481
+    ],
+    "abmdp_breach_rate": 0.0,
+    "abmdp_breach_rate_per_seed": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "abmdp_breach_steps_total": 0,
+    "abmdp_evaluated_steps": 640000,
+    "abmdp_breach_rate_pooled_ci95_exact": [
+      0.0,
+      5.763857535393009e-06
+    ],
+    "abmdp_mean_proj_active_frac": 0.7710187499999992,
+    "abmdp_vacuous_steps_total": 0,
+    "abmdp_vacuous_step_frac": 0.0,
+    "abmdp_vacuous_breach_steps": 0,
+    "abmdp_breach_steps_on_nonvacuous": 0,
+    "predicted_vacuous": false
+  },
+  {
+    "parameter": "eps_max",
+    "value": 0.1,
+    "fixed_lambda": 10.0,
+    "fixed_reward_scale": 2.0,
+    "fixed_eps_max": 0.05,
+    "sweep_runs": 800,
+    "train_seeds": 8,
+    "penalty_breach_rate": 0.88296875,
+    "penalty_breach_rate_std": 0.30963558312302786,
+    "penalty_breach_rate_per_seed": [
+      1.0,
+      0.06375,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "penalty_leaky_runs": 7,
+    "penalty_leaky_runs_frac": 0.875,
+    "penalty_leaky_runs_frac_ci95_exact": [
+      0.4734903291247935,
+      0.9968402764687481
+    ],
+    "abmdp_breach_rate": 0.0,
+    "abmdp_breach_rate_per_seed": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "abmdp_breach_steps_total": 0,
+    "abmdp_evaluated_steps": 640000,
+    "abmdp_breach_rate_pooled_ci95_exact": [
+      0.0,
+      5.763857535393009e-06
+    ],
+    "abmdp_mean_proj_active_frac": 0.7516203124999999,
+    "abmdp_vacuous_steps_total": 0,
+    "abmdp_vacuous_step_frac": 0.0,
+    "abmdp_vacuous_breach_steps": 0,
+    "abmdp_breach_steps_on_nonvacuous": 0,
+    "predicted_vacuous": false
+  },
+  {
+    "parameter": "eps_max",
+    "value": 0.12,
+    "fixed_lambda": 10.0,
+    "fixed_reward_scale": 2.0,
+    "fixed_eps_max": 0.05,
+    "sweep_runs": 800,
+    "train_seeds": 8,
+    "penalty_breach_rate": 1.0,
+    "penalty_breach_rate_std": 0.0,
+    "penalty_breach_rate_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "penalty_leaky_runs": 8,
+    "penalty_leaky_runs_frac": 1.0,
+    "penalty_leaky_runs_frac_ci95_exact": [
+      0.6305833524471807,
+      1.0
+    ],
+    "abmdp_breach_rate": 0.040312499999999994,
+    "abmdp_breach_rate_per_seed": [
+      0.03625,
+      0.045,
+      0.04875,
+      0.035,
+      0.03625,
+      0.0475,
+      0.03,
+      0.04375
+    ],
+    "abmdp_breach_steps_total": 290,
+    "abmdp_evaluated_steps": 640000,
+    "abmdp_breach_rate_pooled_ci95_exact": [
+      0.000402478669451779,
+      0.0005083786466595908
+    ],
+    "abmdp_mean_proj_active_frac": 0.7497015624999994,
+    "abmdp_vacuous_steps_total": 22355,
+    "abmdp_vacuous_step_frac": 0.0349296875,
+    "abmdp_vacuous_breach_steps": 290,
+    "abmdp_breach_steps_on_nonvacuous": 0,
+    "predicted_vacuous": true
+  },
+  {
+    "parameter": "eps_max",
+    "value": 0.15,
+    "fixed_lambda": 10.0,
+    "fixed_reward_scale": 2.0,
+    "fixed_eps_max": 0.05,
+    "sweep_runs": 800,
+    "train_seeds": 8,
+    "penalty_breach_rate": 1.0,
+    "penalty_breach_rate_std": 0.0,
+    "penalty_breach_rate_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "penalty_leaky_runs": 8,
+    "penalty_leaky_runs_frac": 1.0,
+    "penalty_leaky_runs_frac_ci95_exact": [
+      0.6305833524471807,
+      1.0
+    ],
+    "abmdp_breach_rate": 0.28609375,
+    "abmdp_breach_rate_per_seed": [
+      0.3275,
+      0.28625,
+      0.2425,
+      0.27125,
+      0.315,
+      0.29,
+      0.255,
+      0.30125
+    ],
+    "abmdp_breach_steps_total": 2630,
+    "abmdp_evaluated_steps": 640000,
+    "abmdp_breach_rate_pooled_ci95_exact": [
+      0.003954111998380085,
+      0.004269152767603989
+    ],
+    "abmdp_mean_proj_active_frac": 0.6140640624999998,
+    "abmdp_vacuous_steps_total": 61881,
+    "abmdp_vacuous_step_frac": 0.0966890625,
+    "abmdp_vacuous_breach_steps": 2630,
+    "abmdp_breach_steps_on_nonvacuous": 0,
+    "predicted_vacuous": true
+  },
+  {
+    "parameter": "eps_max",
+    "value": 0.2,
+    "fixed_lambda": 10.0,
+    "fixed_reward_scale": 2.0,
+    "fixed_eps_max": 0.05,
+    "sweep_runs": 800,
+    "train_seeds": 8,
+    "penalty_breach_rate": 1.0,
+    "penalty_breach_rate_std": 0.0,
+    "penalty_breach_rate_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "penalty_leaky_runs": 8,
+    "penalty_leaky_runs_frac": 1.0,
+    "penalty_leaky_runs_frac_ci95_exact": [
+      0.6305833524471807,
+      1.0
+    ],
+    "abmdp_breach_rate": 0.6640625,
+    "abmdp_breach_rate_per_seed": [
+      0.68375,
+      0.675,
+      0.6475,
+      0.67625,
+      0.6325,
+      0.65625,
+      0.67125,
+      0.67
+    ],
+    "abmdp_breach_steps_total": 10521,
+    "abmdp_evaluated_steps": 640000,
+    "abmdp_breach_rate_pooled_ci95_exact": [
+      0.01612894324423301,
+      0.01675356994982114
+    ],
+    "abmdp_mean_proj_active_frac": 0.4356734375000001,
+    "abmdp_vacuous_steps_total": 113305,
+    "abmdp_vacuous_step_frac": 0.1770390625,
+    "abmdp_vacuous_breach_steps": 10521,
+    "abmdp_breach_steps_on_nonvacuous": 0,
+    "predicted_vacuous": true
+  },
+  {
+    "parameter": "eps_max",
+    "value": 0.3,
+    "fixed_lambda": 10.0,
+    "fixed_reward_scale": 2.0,
+    "fixed_eps_max": 0.05,
+    "sweep_runs": 800,
+    "train_seeds": 8,
+    "penalty_breach_rate": 1.0,
+    "penalty_breach_rate_std": 0.0,
+    "penalty_breach_rate_per_seed": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "penalty_leaky_runs": 8,
+    "penalty_leaky_runs_frac": 1.0,
+    "penalty_leaky_runs_frac_ci95_exact": [
+      0.6305833524471807,
+      1.0
+    ],
+    "abmdp_breach_rate": 0.9215625000000001,
+    "abmdp_breach_rate_per_seed": [
+      0.93125,
+      0.93,
+      0.90625,
+      0.91125,
+      0.9475,
+      0.92625,
+      0.92125,
+      0.89875
+    ],
+    "abmdp_breach_steps_total": 36457,
+    "abmdp_evaluated_steps": 640000,
+    "abmdp_breach_rate_pooled_ci95_exact": [
+      0.056397451727194445,
+      0.057534687705476095
+    ],
+    "abmdp_mean_proj_active_frac": 0.25830468750000013,
+    "abmdp_vacuous_steps_total": 190567,
+    "abmdp_vacuous_step_frac": 0.2977609375,
+    "abmdp_vacuous_breach_steps": 36457,
+    "abmdp_breach_steps_on_nonvacuous": 0,
+    "predicted_vacuous": true
+  }
+]

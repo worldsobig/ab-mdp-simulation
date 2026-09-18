@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------------
+# This repository publishes the simulation code, the released numerical
+# records and the verification scripts. The manuscript source and the
+# submission package are intentionally NOT published here, so that this
+# repository matches the code-availability statement exactly.
+# ---------------------------------------------------------------------------
+manuscript/
+submission/
+validation/
+
+# LaTeX build artifacts (kept out even if a manuscript copy is ever un-ignored)
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

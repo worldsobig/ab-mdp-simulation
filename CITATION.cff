@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code or these data, please cite the manuscript below."
+title: "AB-MDP: simulation code, released numerical records and verification scripts"
+abstract: >-
+  Reproduction package for the Autonomic-Boundary Markov Decision Process (AB-MDP)
+  framework: a bounded 2D navigation study comparing Lagrangian penalty relaxation
+  against a robust one-step invariance filter, the released numerical records behind
+  every reported figure and table, and the scripts that verify each number quoted in
+  the manuscript against those records.
+type: software
+authors:
+  - family-names: Li
+    given-names: Wentao
+    affiliation: "World So Big Technology (Shenzhen) Co., Ltd."
+contact:
+  - family-names: Li
+    given-names: Wentao
+    email: contact@worldsobig.com
+license: MIT
+version: "1.0.0"
+date-released: "2026-09-18"
+keywords:
+  - safe reinforcement learning
+  - viability theory
+  - Markov decision processes
+  - control barrier functions
+  - embodied artificial intelligence
+preferred-citation:
+  type: article
+  title: >-
+    Ontological Bounds of Autoregressive Architectures: An Autonomic-Boundary MDP
+    Framework for Physical AI
+  authors:
+    - family-names: Li
+      given-names: Wentao
+      affiliation: "World So Big Technology (Shenzhen) Co., Ltd."
+  year: 2026

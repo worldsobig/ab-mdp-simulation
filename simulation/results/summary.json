@@ -1,0 +1,3777 @@
+{
+  "config": {
+    "a_max": 0.1,
+    "eps_max": 0.05,
+    "radius": 1.0,
+    "gamma": 0.99,
+    "lam": 10.0,
+    "reward_scale": 2.0,
+    "horizon": 100,
+    "runs": 30000,
+    "s0": [
+      -0.5,
+      -0.5
+    ],
+    "goal": [
+      1.4,
+      0.0
+    ],
+    "eta": 0.2,
+    "train_episodes": 1200,
+    "lr": 0.05,
+    "policy_sigma": 0.15,
+    "seed": 20260917
+  },
+  "headline_seeds": 15,
+  "eval_runs_per_seed": 2000,
+  "fixed_penalty": {
+    "lambda": 10.0,
+    "breach_rate_mean": 0.8725,
+    "breach_rate_std": 0.32510413716223296,
+    "breach_rate_median": 1.0,
+    "breach_rate_per_seed": [
+      1.0,
+      0.0295,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.058
+    ],
+    "min": 0.0295,
+    "max": 1.0,
+    "leaky_runs": 13,
+    "clean_runs": 0,
+    "leaky_runs_frac": 0.8666666666666667,
+    "leaky_runs_frac_ci95_exact": [
+      0.5953973033966278,
+      0.9834240865599164
+    ],
+    "mean_task_return": 4.877166402068899,
+    "mean_final_dist": 5.35859880377714
+  },
+  "abmdp": {
+    "evaluated_steps": 3000000,
+    "breach_steps_total": 0,
+    "breach_rate": 0.0,
+    "breach_rate_ci95_exact": [
+      0.0,
+      1.2296257297173358e-06
+    ],
+    "mean_task_return": 18.472377166614713,
+    "mean_final_dist": 1.6926999225629198,
+    "mean_proj_active_frac": 0.8032466666666848,
+    "mean_proj_norm_pooled": 0.09416512902772037,
+    "mean_proj_norm_seed_mean": 0.08379351953178492,
+    "proj_active_steps_total": 2409740,
+    "seeds_without_intervention": 0,
+    "mean_sigma_pain": 0.6600198650196205
+  },
+  "margin_profile": [
+    {
+      "bin": 0,
+      "range": "[0.00, 0.05)",
+      "steps": 1212661,
+      "active_steps": 1212601,
+      "active_frac": 0.9999505220337753,
+      "mean_disp_active": 0.11798308785313918,
+      "mean_disp_per_step": 0.1179772502899033,
+      "mean_sigma_pain": 0.868062668760754
+    },
+    {
+      "bin": 1,
+      "range": "[0.05, 0.10)",
+      "steps": 1205132,
+      "active_steps": 1186958,
+      "active_frac": 0.9849194942960605,
+      "mean_disp_active": 0.07046141681123494,
+      "mean_disp_per_step": 0.06939882301310546,
+      "mean_sigma_pain": 0.7018769973734444
+    },
+    {
+      "bin": 2,
+      "range": "[0.10, 0.15)",
+      "steps": 25793,
+      "active_steps": 10181,
+      "active_frac": 0.3947194975380917,
+      "mean_disp_active": 0.020855056873057793,
+      "mean_disp_per_step": 0.0082318975700617,
+      "mean_sigma_pain": 0.5378793548758032
+    },
+    {
+      "bin": 3,
+      "range": "[0.15, 0.20)",
+      "steps": 29289,
+      "active_steps": 0,
+      "active_frac": 0.0,
+      "mean_disp_active": null,
+      "mean_disp_per_step": 1.64297557770749e-18,
+      "mean_sigma_pain": 0.4157844344273234
+    },
+    {
+      "bin": 4,
+      "range": "[0.20, 0.25)",
+      "steps": 33996,
+      "active_steps": 0,
+      "active_frac": 0.0,
+      "mean_disp_active": null,
+      "mean_disp_per_step": 1.5850487735908085e-18,
+      "mean_sigma_pain": 0.3251576135260155
+    },
+    {
+      "bin": 5,
+      "range": "[0.25, 0.30)",
+      "steps": 64306,
+      "active_steps": 0,
+      "active_frac": 0.0,
+      "mean_disp_active": null,
+      "mean_disp_per_step": 1.6680372237989243e-18,
+      "mean_sigma_pain": 0.2431573173900444
+    },
+    {
+      "bin": 6,
+      "range": "[0.30, 0.35)",
+      "steps": 33467,
+      "active_steps": 0,
+      "active_frac": 0.0,
+      "mean_disp_active": null,
+      "mean_disp_per_step": 1.592882850206855e-18,
+      "mean_sigma_pain": 0.19751543150475898
+    },
+    {
+      "bin": 7,
+      "range": "[0.35, 0.40)",
+      "steps": 32223,
+      "active_steps": 0,
+      "active_frac": 0.0,
+      "mean_disp_active": null,
+      "mean_disp_per_step": 1.6212649448344555e-18,
+      "mean_sigma_pain": 0.15400198607129212
+    },
+    {
+      "bin": 8,
+      "range": "[0.40, 0.45)",
+      "steps": 30721,
+      "active_steps": 0,
+      "active_frac": 0.0,
+      "mean_disp_active": null,
+      "mean_disp_per_step": 1.6024753536214573e-18,
+      "mean_sigma_pain": 0.11984947672764328
+    },
+    {
+      "bin": 9,
+      "range": "[0.45, 0.50)",
+      "steps": 31795,
+      "active_steps": 0,
+      "active_frac": 0.0,
+      "mean_disp_active": null,
+      "mean_disp_per_step": 1.642667349637393e-18,
+      "mean_sigma_pain": 0.0930205365684365
+    },
+    {
+      "bin": 10,
+      "range": "[0.50, inf)",
+      "steps": 300617,
+      "active_steps": 0,
+      "active_frac": 0.0,
+      "mean_disp_active": null,
+      "mean_disp_per_step": 1.6496038090881121e-18,
+      "mean_sigma_pain": 0.03521197283675393
+    }
+  ],
+  "per_seed": [
+    {
+      "seed": 20260917,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 174262,
+        "evaluated_steps": 200000,
+        "mean_task_return": 5.970637931063667,
+        "mean_final_dist": 4.647064882096863,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 40.18993661209475,
+        "mean_final_dist": 0.9914683759874989,
+        "mean_proj_active_frac": 0.9103150000000196,
+        "proj_active_steps": 182063,
+        "mean_proj_norm": 0.09353467992342993,
+        "mean_sigma_pain": 0.74332998072279,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 91862,
+            "active_frac": 0.9999455705297076,
+            "mean_disp_active": 0.1172096705382519,
+            "mean_disp_per_step": 0.11720329087797136,
+            "mean_sigma_pain": 0.8680052861523005
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 91096,
+            "active_frac": 0.9823592693422324,
+            "mean_disp_active": 0.06982960979507505,
+            "mean_disp_per_step": 0.06859776445674312,
+            "mean_sigma_pain": 0.7018605786717592
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 2210,
+            "active_frac": 0.3244343891402715,
+            "mean_disp_active": 0.019098707553285476,
+            "mean_disp_per_step": 0.0061962775184188626,
+            "mean_sigma_pain": 0.5372806543663958
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 2351,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6841411455764889e-18,
+            "mean_sigma_pain": 0.4155122755852047
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2686,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6211175831275192e-18,
+            "mean_sigma_pain": 0.32531322564969206
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4706,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7207205809909814e-18,
+            "mean_sigma_pain": 0.2442250467819377
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 2186,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5886718068571782e-18,
+            "mean_sigma_pain": 0.198276630177967
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 1436,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.91810684606512e-18,
+            "mean_sigma_pain": 0.1555065283658251
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 756,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.4879276670500603e-18,
+            "mean_sigma_pain": 0.1213367309706631
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 372,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.3594506223182127e-18,
+            "mean_sigma_pain": 0.09391860268439019
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 339,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5799138244014195e-18,
+            "mean_sigma_pain": 0.06436842459125865
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260918,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 0.0295,
+        "breach_rate_ci95_exact": [
+          0.022530967865735274,
+          0.03788941929919071
+        ],
+        "breaches": 59,
+        "breach_steps": 190,
+        "evaluated_steps": 200000,
+        "mean_task_return": 19.82857301544526,
+        "mean_final_dist": 1.4205286836276136,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 20.194637520072153,
+        "mean_final_dist": 1.4185111818438139,
+        "mean_proj_active_frac": 2e-05,
+        "proj_active_steps": 4,
+        "mean_proj_norm": 0.019873352671998232,
+        "mean_sigma_pain": 0.05545686656768131,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 3,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 0.0,
+            "mean_sigma_pain": 0.8182240460129151
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 44,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.4105307688904961e-18,
+            "mean_sigma_pain": 0.6574617183378343
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 173,
+            "active_frac": 0.023121387283236993,
+            "mean_disp_active": 0.01987335267199829,
+            "mean_disp_per_step": 0.0004594994837456252,
+            "mean_sigma_pain": 0.5169835379546949
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 665,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.1190767758207462e-18,
+            "mean_sigma_pain": 0.41005428979664954
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 1490,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.4771718093401451e-18,
+            "mean_sigma_pain": 0.32061580557485375
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4902,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.525242140674432e-18,
+            "mean_sigma_pain": 0.24266331489262108
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 4546,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5167728544509246e-18,
+            "mean_sigma_pain": 0.19582668232770095
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 6737,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5791076548899298e-18,
+            "mean_sigma_pain": 0.1528460081672813
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 8469,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6025616857346435e-18,
+            "mean_sigma_pain": 0.11928435692479754
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 10700,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6245046528832202e-18,
+            "mean_sigma_pain": 0.09276590252890922
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 162271,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6590751542639415e-18,
+            "mean_sigma_pain": 0.03147726285263607
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260919,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 174274,
+        "evaluated_steps": 200000,
+        "mean_task_return": 6.132250225062744,
+        "mean_final_dist": 4.655647407366335,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 40.18084838836123,
+        "mean_final_dist": 0.9936679821828359,
+        "mean_proj_active_frac": 0.9089700000000204,
+        "proj_active_steps": 181794,
+        "mean_proj_norm": 0.09348899971028882,
+        "mean_sigma_pain": 0.7423268988438079,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 91544,
+            "active_frac": 0.9999453814559119,
+            "mean_disp_active": 0.11720839693801373,
+            "mean_disp_per_step": 0.11720199518601808,
+            "mean_sigma_pain": 0.8679194305202251
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 91129,
+            "active_frac": 0.9828814098695257,
+            "mean_disp_active": 0.06981324103359751,
+            "mean_disp_per_step": 0.06861813677466333,
+            "mean_sigma_pain": 0.701779853865937
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 2187,
+            "active_frac": 0.3136716963877458,
+            "mean_disp_active": 0.019675772427276438,
+            "mean_disp_per_step": 0.006171732915003034,
+            "mean_sigma_pain": 0.5375484728903641
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 2455,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.638696994468177e-18,
+            "mean_sigma_pain": 0.41613929686925405
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2748,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7529056157208193e-18,
+            "mean_sigma_pain": 0.3254105302177649
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4610,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6736186366798717e-18,
+            "mean_sigma_pain": 0.24426121548231755
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 2257,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6215303444069695e-18,
+            "mean_sigma_pain": 0.19891518611588152
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 1506,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5424866796753277e-18,
+            "mean_sigma_pain": 0.15556715506116742
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 818,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7794705538788218e-18,
+            "mean_sigma_pain": 0.12164144058133364
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 407,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.99823105537817e-18,
+            "mean_sigma_pain": 0.09464879742059913
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 339,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 2.1819910344547852e-18,
+            "mean_sigma_pain": 0.06281364100495887
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260920,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 189106,
+        "evaluated_steps": 200000,
+        "mean_task_return": 0.8365505365739176,
+        "mean_final_dist": 7.036145436684545,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 5.141505743556545,
+        "mean_final_dist": 2.1780561102686047,
+        "mean_proj_active_frac": 0.9655750000000232,
+        "proj_active_steps": 193115,
+        "mean_proj_norm": 0.09558080820686979,
+        "mean_sigma_pain": 0.7704949073987932,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 97102,
+            "active_frac": 1.0,
+            "mean_disp_active": 0.11956067692462928,
+            "mean_disp_per_step": 0.11956067692462928,
+            "mean_sigma_pain": 0.8682558902030231
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 95996,
+            "active_frac": 0.9902183424309347,
+            "mean_disp_active": 0.0718085889487578,
+            "mean_disp_per_step": 0.07110618192114329,
+            "mean_sigma_pain": 0.7021258916141196
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 1295,
+            "active_frac": 0.7382239382239382,
+            "mean_disp_active": 0.02363795651905512,
+            "mean_disp_per_step": 0.017450105353063083,
+            "mean_sigma_pain": 0.5430296593089515
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 1420,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6126492980108834e-18,
+            "mean_sigma_pain": 0.4172178660947372
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 1320,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5577192112301834e-18,
+            "mean_sigma_pain": 0.32922650614952326
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 2512,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6061181715001326e-18,
+            "mean_sigma_pain": 0.23657545923942055
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 217,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6065937060414954e-18,
+            "mean_sigma_pain": 0.20012846742657422
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 104,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.1863338867585852e-18,
+            "mean_sigma_pain": 0.1574805904051368
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 29,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 5.350289123377744e-19,
+            "mean_sigma_pain": 0.12338940010788081
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 3,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 0.0,
+            "mean_sigma_pain": 0.08509265347830798
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 2,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 0.0,
+            "mean_sigma_pain": 0.07609404605074899
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260921,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 174601,
+        "evaluated_steps": 200000,
+        "mean_task_return": 1.1498532621749777,
+        "mean_final_dist": 6.519211741688405,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 4.919621251118213,
+        "mean_final_dist": 2.175382891896867,
+        "mean_proj_active_frac": 0.9094000000000192,
+        "proj_active_steps": 181880,
+        "mean_proj_norm": 0.09353733023559731,
+        "mean_sigma_pain": 0.7427185446389394,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 91447,
+            "active_frac": 0.9999671941124367,
+            "mean_disp_active": 0.1172313847227565,
+            "mean_disp_per_step": 0.11722753884313039,
+            "mean_sigma_pain": 0.8677932975114865
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 91353,
+            "active_frac": 0.9822775387781463,
+            "mean_disp_active": 0.0699691341023249,
+            "mean_disp_per_step": 0.06872910883646977,
+            "mean_sigma_pain": 0.7020076637323098
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 2277,
+            "active_frac": 0.308300395256917,
+            "mean_disp_active": 0.019733047186108757,
+            "mean_disp_per_step": 0.006083706247100723,
+            "mean_sigma_pain": 0.5378770550872771
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 2442,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.819308657046513e-18,
+            "mean_sigma_pain": 0.4154977540232458
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2723,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6614699030455521e-18,
+            "mean_sigma_pain": 0.3248009607571478
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4615,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6220826375128108e-18,
+            "mean_sigma_pain": 0.24423715118568695
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 2151,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.798192469149008e-18,
+            "mean_sigma_pain": 0.1980352133298816
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 1366,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.737016929074761e-18,
+            "mean_sigma_pain": 0.15529312578775847
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 844,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.739058292709678e-18,
+            "mean_sigma_pain": 0.12203110066813178
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 451,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7135248116635375e-18,
+            "mean_sigma_pain": 0.09428565723936745
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 331,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7225599925200932e-18,
+            "mean_sigma_pain": 0.06498148827083809
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260922,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 188993,
+        "evaluated_steps": 200000,
+        "mean_task_return": 0.8358338351792429,
+        "mean_final_dist": 7.035836445094336,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 5.148739909158179,
+        "mean_final_dist": 2.1773660458662074,
+        "mean_proj_active_frac": 0.9655800000000228,
+        "proj_active_steps": 193116,
+        "mean_proj_norm": 0.09565505760590273,
+        "mean_sigma_pain": 0.7705683321738599,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 97354,
+            "active_frac": 1.0,
+            "mean_disp_active": 0.11952300499114597,
+            "mean_disp_per_step": 0.11952300499114597,
+            "mean_sigma_pain": 0.8679962039682692
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 95727,
+            "active_frac": 0.9900654987621047,
+            "mean_disp_active": 0.07188118991072738,
+            "mean_disp_per_step": 0.07116708614057787,
+            "mean_sigma_pain": 0.7021917150487926
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 1341,
+            "active_frac": 0.7352721849366145,
+            "mean_disp_active": 0.024206715754949603,
+            "mean_disp_per_step": 0.017798524783281363,
+            "mean_sigma_pain": 0.5410612648906021
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 1403,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.4713178647613535e-18,
+            "mean_sigma_pain": 0.4152586837463476
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 1260,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.8182230525739524e-18,
+            "mean_sigma_pain": 0.3292343222783477
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 2534,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.568826426815628e-18,
+            "mean_sigma_pain": 0.2369170000295312
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 243,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 2.0104029104100355e-18,
+            "mean_sigma_pain": 0.20032494911705265
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 99,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 9.664171449502871e-19,
+            "mean_sigma_pain": 0.15594244418554853
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 32,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.841322848276882e-18,
+            "mean_sigma_pain": 0.1237113452207357
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 6,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 0.0,
+            "mean_sigma_pain": 0.09158209113395772
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 1,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 0.0,
+            "mean_sigma_pain": 0.07815330562456335
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260923,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 174083,
+        "evaluated_steps": 200000,
+        "mean_task_return": 6.06585088270207,
+        "mean_final_dist": 4.611455687247705,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 40.21336258972063,
+        "mean_final_dist": 0.9936223055965768,
+        "mean_proj_active_frac": 0.9106350000000217,
+        "proj_active_steps": 182127,
+        "mean_proj_norm": 0.0934216372850179,
+        "mean_sigma_pain": 0.7431081723022558,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 91432,
+            "active_frac": 0.9999671887304226,
+            "mean_disp_active": 0.11725235440270539,
+            "mean_disp_per_step": 0.11724850720409649,
+            "mean_sigma_pain": 0.8681903619274297
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 91614,
+            "active_frac": 0.9823716899163883,
+            "mean_disp_active": 0.06979097080576828,
+            "mean_disp_per_step": 0.0685606739313679,
+            "mean_sigma_pain": 0.7016813693556958
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 2180,
+            "active_frac": 0.32064220183486236,
+            "mean_disp_active": 0.01891193358392333,
+            "mean_disp_per_step": 0.006063964025303856,
+            "mean_sigma_pain": 0.5373663341498017
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 2340,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6921115657981651e-18,
+            "mean_sigma_pain": 0.41676488544676465
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2686,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.4985969884006846e-18,
+            "mean_sigma_pain": 0.3246578054825443
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4643,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.663362976272308e-18,
+            "mean_sigma_pain": 0.2448109923755228
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 2155,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.636265778804001e-18,
+            "mean_sigma_pain": 0.1989391184762621
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 1401,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.815698631037461e-18,
+            "mean_sigma_pain": 0.15525771818131748
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 808,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6854027896968288e-18,
+            "mean_sigma_pain": 0.12153609637499888
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 376,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 2.1348081112349004e-18,
+            "mean_sigma_pain": 0.09452999416386246
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 365,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 2.2272980057598197e-18,
+            "mean_sigma_pain": 0.060452783196776064
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260924,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 174062,
+        "evaluated_steps": 200000,
+        "mean_task_return": 6.04740044363482,
+        "mean_final_dist": 4.625653448979848,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 40.1718976505178,
+        "mean_final_dist": 0.9959540492656515,
+        "mean_proj_active_frac": 0.9091100000000205,
+        "proj_active_steps": 181822,
+        "mean_proj_norm": 0.09351827525093089,
+        "mean_sigma_pain": 0.7423945709383774,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 91461,
+            "active_frac": 0.9999125310241523,
+            "mean_disp_active": 0.11727820518402556,
+            "mean_disp_per_step": 0.11726794697952886,
+            "mean_sigma_pain": 0.8680548663201341
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 91253,
+            "active_frac": 0.9824005786111142,
+            "mean_disp_active": 0.06987792593412026,
+            "mean_disp_per_step": 0.06864811486982432,
+            "mean_sigma_pain": 0.7019300133025794
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 2241,
+            "active_frac": 0.322177599286033,
+            "mean_disp_active": 0.019237836238204117,
+            "mean_disp_per_step": 0.0061979998946824506,
+            "mean_sigma_pain": 0.539173107532829
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 2343,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.646412542102014e-18,
+            "mean_sigma_pain": 0.4151277229411217
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2786,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6532090322569047e-18,
+            "mean_sigma_pain": 0.3244524507890065
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4579,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7417481331139004e-18,
+            "mean_sigma_pain": 0.2441645998989018
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 2148,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7200443284624592e-18,
+            "mean_sigma_pain": 0.19837138554172068
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 1530,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.8243885104251766e-18,
+            "mean_sigma_pain": 0.15560474260335413
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 804,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.914812259802427e-18,
+            "mean_sigma_pain": 0.12167633275456949
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 432,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.8812772256303607e-18,
+            "mean_sigma_pain": 0.09428865792303262
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 423,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.270403721604461e-18,
+            "mean_sigma_pain": 0.06360678845811665
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260925,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 174136,
+        "evaluated_steps": 200000,
+        "mean_task_return": 1.1690894909944796,
+        "mean_final_dist": 6.482398745098419,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 4.921439672743497,
+        "mean_final_dist": 2.1775548155712436,
+        "mean_proj_active_frac": 0.90930500000002,
+        "proj_active_steps": 181861,
+        "mean_proj_norm": 0.09344076886604917,
+        "mean_sigma_pain": 0.7422624521209448,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 91434,
+            "active_frac": 0.9999234420456286,
+            "mean_disp_active": 0.11726907302151389,
+            "mean_disp_per_step": 0.11726009514117232,
+            "mean_sigma_pain": 0.868066775052234
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 91243,
+            "active_frac": 0.9832754293480048,
+            "mean_disp_active": 0.06975907936315216,
+            "mean_disp_per_step": 0.06859238871172499,
+            "mean_sigma_pain": 0.7016905306981356
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 2213,
+            "active_frac": 0.3239945774966109,
+            "mean_disp_active": 0.018266114904771806,
+            "mean_disp_per_step": 0.0059181221810760895,
+            "mean_sigma_pain": 0.5374070657026598
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 2420,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5356886969368536e-18,
+            "mean_sigma_pain": 0.4165265311209759
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2705,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5190179136599578e-18,
+            "mean_sigma_pain": 0.325297080720843
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4690,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.79034219895912e-18,
+            "mean_sigma_pain": 0.24468696201622936
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 2200,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.607072117499236e-18,
+            "mean_sigma_pain": 0.19886413479110412
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 1522,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7276885721858192e-18,
+            "mean_sigma_pain": 0.155460432691137
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 795,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 2.0103794910349765e-18,
+            "mean_sigma_pain": 0.12173862981071776
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 408,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.8912200922503486e-18,
+            "mean_sigma_pain": 0.09482417645960033
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 370,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 2.5629408751091624e-18,
+            "mean_sigma_pain": 0.06204047260314728
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260926,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 174037,
+        "evaluated_steps": 200000,
+        "mean_task_return": 1.1702815293734472,
+        "mean_final_dist": 6.495048681212265,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 4.922350717586659,
+        "mean_final_dist": 2.1762785140608973,
+        "mean_proj_active_frac": 0.9093550000000186,
+        "proj_active_steps": 181871,
+        "mean_proj_norm": 0.0935580501862768,
+        "mean_sigma_pain": 0.7427930471594631,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 91757,
+            "active_frac": 0.9999455082446026,
+            "mean_disp_active": 0.11726238442894671,
+            "mean_disp_per_step": 0.11725599459577708,
+            "mean_sigma_pain": 0.8680107750389209
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 91038,
+            "active_frac": 0.9820953887387684,
+            "mean_disp_active": 0.06982583792592584,
+            "mean_disp_per_step": 0.06857563344187237,
+            "mean_sigma_pain": 0.7018329206151311
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 2204,
+            "active_frac": 0.32259528130671505,
+            "mean_disp_active": 0.01891607879387155,
+            "mean_disp_per_step": 0.006102237759728981,
+            "mean_sigma_pain": 0.5374893535405769
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 2371,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.650832698317158e-18,
+            "mean_sigma_pain": 0.41625580379571486
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2745,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5238925254906782e-18,
+            "mean_sigma_pain": 0.32525977808930356
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4622,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.614779648228731e-18,
+            "mean_sigma_pain": 0.24415791755638505
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 2184,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.537738629579206e-18,
+            "mean_sigma_pain": 0.19857600011078347
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 1516,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6795741383325734e-18,
+            "mean_sigma_pain": 0.15516391003751143
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 798,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.492132536218969e-18,
+            "mean_sigma_pain": 0.1214074765592164
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 396,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7561333067614108e-18,
+            "mean_sigma_pain": 0.09375510567557757
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 369,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7192774897232312e-18,
+            "mean_sigma_pain": 0.0629962815219006
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260927,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 189084,
+        "evaluated_steps": 200000,
+        "mean_task_return": 0.8289741671825569,
+        "mean_final_dist": 7.049907513216318,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 5.146405272037882,
+        "mean_final_dist": 2.1764042550413754,
+        "mean_proj_active_frac": 0.964530000000023,
+        "proj_active_steps": 192906,
+        "mean_proj_norm": 0.09554824866175324,
+        "mean_sigma_pain": 0.7697697419326589,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 96706,
+            "active_frac": 1.0,
+            "mean_disp_active": 0.11956792412107514,
+            "mean_disp_per_step": 0.11956792412107514,
+            "mean_sigma_pain": 0.8681574443433571
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 96219,
+            "active_frac": 0.9900227605774328,
+            "mean_disp_active": 0.07187267261378075,
+            "mean_disp_per_step": 0.07115558175117326,
+            "mean_sigma_pain": 0.7022348228721687
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 1314,
+            "active_frac": 0.7161339421613394,
+            "mean_disp_active": 0.023778815914249272,
+            "mean_disp_per_step": 0.017028817180600127,
+            "mean_sigma_pain": 0.5401949362648474
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 1469,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.702601814236955e-18,
+            "mean_sigma_pain": 0.4169124724295762
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 1263,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.662133583989783e-18,
+            "mean_sigma_pain": 0.3295746361165634
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 2582,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.8074489230987514e-18,
+            "mean_sigma_pain": 0.2368933800580504
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 274,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6951498368898143e-18,
+            "mean_sigma_pain": 0.20039253817521877
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 117,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 2.373059928144495e-18,
+            "mean_sigma_pain": 0.15591537626680657
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 41,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.1353052530094236e-18,
+            "mean_sigma_pain": 0.12237667691981303
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 10,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 0.0,
+            "mean_sigma_pain": 0.09136294628615335
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 5,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 3.1031676915590916e-18,
+            "mean_sigma_pain": 0.06587665002431653
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260928,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 174229,
+        "evaluated_steps": 200000,
+        "mean_task_return": 5.954240981282576,
+        "mean_final_dist": 4.644211158074535,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 40.24677471031622,
+        "mean_final_dist": 0.9918315630025214,
+        "mean_proj_active_frac": 0.9100450000000203,
+        "proj_active_steps": 182009,
+        "mean_proj_norm": 0.09343278210138417,
+        "mean_sigma_pain": 0.7427941373257049,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 91534,
+            "active_frac": 0.9999781501955558,
+            "mean_disp_active": 0.11725242418891224,
+            "mean_disp_per_step": 0.1172498622463731,
+            "mean_sigma_pain": 0.8680593502939131
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 91352,
+            "active_frac": 0.9828356248358,
+            "mean_disp_active": 0.06972139639402151,
+            "mean_disp_per_step": 0.06852467218934263,
+            "mean_sigma_pain": 0.7016066010619347
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 2211,
+            "active_frac": 0.31343283582089554,
+            "mean_disp_active": 0.019325386422114885,
+            "mean_disp_per_step": 0.006057210669618098,
+            "mean_sigma_pain": 0.537002414606079
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 2395,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6214645463913215e-18,
+            "mean_sigma_pain": 0.417221386070258
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2704,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5958753223159572e-18,
+            "mean_sigma_pain": 0.3248491219531485
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4674,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6889285828494992e-18,
+            "mean_sigma_pain": 0.2442194352689823
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 2094,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.776780097579216e-18,
+            "mean_sigma_pain": 0.19868851404823112
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 1495,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6617543631254995e-18,
+            "mean_sigma_pain": 0.15551306815700014
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 779,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.807184690673557e-18,
+            "mean_sigma_pain": 0.12159533401399593
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 370,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.881823075081406e-18,
+            "mean_sigma_pain": 0.0940287432220023
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 392,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.960589644339065e-18,
+            "mean_sigma_pain": 0.061801696648598595
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260929,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 174253,
+        "evaluated_steps": 200000,
+        "mean_task_return": 1.1665345973210581,
+        "mean_final_dist": 6.483502178732009,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 4.914254050345578,
+        "mean_final_dist": 2.178456700745772,
+        "mean_proj_active_frac": 0.9100150000000192,
+        "proj_active_steps": 182003,
+        "mean_proj_norm": 0.09349313954222191,
+        "mean_sigma_pain": 0.742917731660161,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 91896,
+            "active_frac": 0.9999673544006268,
+            "mean_disp_active": 0.11721790109212425,
+            "mean_disp_per_step": 0.11721407444348583,
+            "mean_sigma_pain": 0.8680674642071458
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 90966,
+            "active_frac": 0.9830376184508498,
+            "mean_disp_active": 0.06969066867709373,
+            "mean_disp_per_step": 0.06850854896457745,
+            "mean_sigma_pain": 0.7015040725230638
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 2168,
+            "active_frac": 0.3168819188191882,
+            "mean_disp_active": 0.01830949917426646,
+            "mean_disp_per_step": 0.005801949230959897,
+            "mean_sigma_pain": 0.5358891853479054
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 2398,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7805862395237698e-18,
+            "mean_sigma_pain": 0.41671238376186764
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2684,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6546052585332511e-18,
+            "mean_sigma_pain": 0.3250959460459682
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 4739,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.849177948620352e-18,
+            "mean_sigma_pain": 0.24455470834628137
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 2171,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7266742839864534e-18,
+            "mean_sigma_pain": 0.1979835655291723
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 1379,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6111469971706125e-18,
+            "mean_sigma_pain": 0.15578975474194062
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 822,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6571001754580959e-18,
+            "mean_sigma_pain": 0.1213256497139562
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 409,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6548836850976893e-18,
+            "mean_sigma_pain": 0.09467881251549085
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 368,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.8105064818085093e-18,
+            "mean_sigma_pain": 0.06223678545394034
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260930,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 1.0,
+        "breach_rate_ci95_exact": [
+          0.9981572602065949,
+          1.0
+        ],
+        "breaches": 2000,
+        "breach_steps": 189194,
+        "evaluated_steps": 200000,
+        "mean_task_return": 0.8242281941119108,
+        "mean_final_dist": 7.0764367361614005,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 5.13599750114095,
+        "mean_final_dist": 2.1778933373808127,
+        "mean_proj_active_frac": 0.9658150000000225,
+        "proj_active_steps": 193163,
+        "mean_proj_norm": 0.0955913723256232,
+        "mean_sigma_pain": 0.7703797355008808,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 97113,
+            "active_frac": 1.0,
+            "mean_disp_active": 0.11957097140464391,
+            "mean_disp_per_step": 0.11957097140464391,
+            "mean_sigma_pain": 0.868221160199884
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 95984,
+            "active_frac": 0.990748458076346,
+            "mean_disp_active": 0.07182390401681052,
+            "mean_disp_per_step": 0.07115942215767851,
+            "mean_sigma_pain": 0.7019690231890187
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 1316,
+            "active_frac": 0.7249240121580547,
+            "mean_disp_active": 0.023746886931409958,
+            "mean_disp_per_step": 0.01721468855058138,
+            "mean_sigma_pain": 0.5409743976915431
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 1378,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.7351767121609555e-18,
+            "mean_sigma_pain": 0.416542623158873
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 1286,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5821945154003107e-18,
+            "mean_sigma_pain": 0.32907972033794974
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 2554,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.722242365729548e-18,
+            "mean_sigma_pain": 0.23701541626957787
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 255,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.3971707052042485e-18,
+            "mean_sigma_pain": 0.20046596485082316
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 87,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 2.0679524445940487e-18,
+            "mean_sigma_pain": 0.1588374984495335
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 20,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 3.842287035753759e-18,
+            "mean_sigma_pain": 0.1256997929797969
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 7,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.9826016168322762e-18,
+            "mean_sigma_pain": 0.09817615231934353
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      }
+    },
+    {
+      "seed": 20260931,
+      "penalty": {
+        "runs": 2000,
+        "breach_rate": 0.058,
+        "breach_rate_ci95_exact": [
+          0.048160205322739125,
+          0.06915895174917022
+        ],
+        "breaches": 116,
+        "breach_steps": 420,
+        "evaluated_steps": 200000,
+        "mean_task_return": 15.177196938930761,
+        "mean_final_dist": 1.595933311376487,
+        "mean_proj_active_frac": 0.0,
+        "proj_active_steps": 0,
+        "mean_proj_norm": 0.0,
+        "mean_sigma_pain": null,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 0,
+            "active_frac": null,
+            "mean_disp_active": null,
+            "mean_disp_per_step": null,
+            "mean_sigma_pain": null
+          }
+        ]
+      },
+      "abmdp": {
+        "runs": 2000,
+        "breach_rate": 0.0,
+        "breach_rate_ci95_exact": [
+          0.0,
+          0.001842739793405157
+        ],
+        "breaches": 0,
+        "breach_steps": 0,
+        "evaluated_steps": 200000,
+        "mean_task_return": 15.637885910450462,
+        "mean_final_dist": 1.588050709733117,
+        "mean_proj_active_frac": 3e-05,
+        "proj_active_steps": 6,
+        "mean_proj_norm": 0.013228290403429701,
+        "mean_sigma_pain": 0.07898285600798971,
+        "margin_profile": [
+          {
+            "bin": 0,
+            "range": "[0.00, 0.05)",
+            "steps": 16,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 0.0,
+            "mean_sigma_pain": 0.8434173348271886
+          },
+          {
+            "bin": 1,
+            "range": "[0.05, 0.10)",
+            "steps": 118,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 8.999066506757734e-19,
+            "mean_sigma_pain": 0.6664439157177882
+          },
+          {
+            "bin": 2,
+            "range": "[0.10, 0.15)",
+            "steps": 463,
+            "active_frac": 0.012958963282937365,
+            "mean_disp_active": 0.013228290403429805,
+            "mean_disp_per_step": 0.00017142492963407953,
+            "mean_sigma_pain": 0.5249032662071572
+          },
+          {
+            "bin": 3,
+            "range": "[0.15, 0.20)",
+            "steps": 1439,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.462481158494764e-18,
+            "mean_sigma_pain": 0.40949101425765866
+          },
+          {
+            "bin": 4,
+            "range": "[0.20, 0.25)",
+            "steps": 2910,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.3156041708836285e-18,
+            "mean_sigma_pain": 0.3214271647122942
+          },
+          {
+            "bin": 5,
+            "range": "[0.25, 0.30)",
+            "steps": 7344,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.524736291183556e-18,
+            "mean_sigma_pain": 0.24531625183062228
+          },
+          {
+            "bin": 6,
+            "range": "[0.30, 0.35)",
+            "steps": 8386,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.4513874165851156e-18,
+            "mean_sigma_pain": 0.19576042366035457
+          },
+          {
+            "bin": 7,
+            "range": "[0.35, 0.40)",
+            "steps": 11928,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.530837321371652e-18,
+            "mean_sigma_pain": 0.1529448843975633
+          },
+          {
+            "bin": 8,
+            "range": "[0.40, 0.45)",
+            "steps": 14906,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.5397324821900107e-18,
+            "mean_sigma_pain": 0.11929651018756474
+          },
+          {
+            "bin": 9,
+            "range": "[0.45, 0.50)",
+            "steps": 17448,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6211122684579153e-18,
+            "mean_sigma_pain": 0.09290457500869198
+          },
+          {
+            "bin": 10,
+            "range": "[0.50, inf)",
+            "steps": 135042,
+            "active_frac": 0.0,
+            "mean_disp_active": null,
+            "mean_disp_per_step": 1.6324575419959493e-18,
+            "mean_sigma_pain": 0.03902479567942627
+          }
+        ]
+      }
+    }
+  ]
+}
