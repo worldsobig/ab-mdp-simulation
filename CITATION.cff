@@ -18,6 +18,8 @@ contact:
     given-names: Wentao
     orcid: "https://orcid.org/0009-0009-3187-5102"
     email: contact@worldsobig.com
+repository-code: "https://github.com/worldsobig/ab-mdp-simulation"
+doi: "10.5281/zenodo.22822092"
 license: MIT
 version: "1.0-submission"
 date-released: "2026-09-18"
